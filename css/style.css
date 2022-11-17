@@ -36,7 +36,7 @@
 	pointer-events: none;
 	border-radius: 50%;
 	opacity: 0.4;
-	border: 4px solid #de2d3e;
+	border: 4px solid #e69600;
 	background: transparent;
 	animation: loaderAnim 0.7s linear infinite alternate forwards;
 }
