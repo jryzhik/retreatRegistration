@@ -110,7 +110,7 @@
 				</nav>
 				<div class="event-time">
 					<div class="section">
-						<div><img class="title_image" src = "./img/retreat_logo_2024.png"></div>
+						<a id="videoclick" href="https://www.youtube.com/watch?v=MOR5vFayUso" class="popup-video"><div><img class="title_image" src = "./img/retreat_logo_2024.png"></div></a>
 					</div>
 					<ul class="countdown">
 						<li> 
@@ -131,7 +131,7 @@
 						</li>
 					</ul>
 				</div>
-				<svg class="scene" width="1440" height="800" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1440 800">
+				<svg style="display: none;"  class="scene" width="1440" height="800" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1440 800">
 					<defs>
 						<linearGradient id="gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
 							<stop offset="0" stop-color="#222222"/>
@@ -1646,6 +1646,17 @@
 	
 	<!-- JAVASCRIPT
     ================================================== -->
+	<script>
+		const svgElement = document.querySelector('svg.scene');
+		console.log(svgElement)
+		
+		document.querySelectorAll('.menu__itemr').forEach(item => {
+		  item.addEventListener('click', () => {
+			// Display the SVG when a menu item is clicked
+			svgElement.style.display = 'block';
+		  });
+		});
+				</script>
 	<script src="js/vendor/jquery-3.6.0.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script> 
