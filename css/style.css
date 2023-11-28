@@ -684,6 +684,11 @@ main {
 	color: var(--color-deco);
 }
 
+#videoclick {
+    position: relative; /* Or absolute/fixed/sticky, depending on your layout needs */
+    z-index: 3003; /* Must be higher than any other element it needs to stack above */
+}
+
 /* Scene */
 .scene {
 	position: fixed;
