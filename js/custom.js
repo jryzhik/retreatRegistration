@@ -87,7 +87,7 @@
 		//Countdown
 		
         $('.countdown').downCount({
-            date: '02/01/2024 12:00:00'
+            date: '02/01/2024 22:00:00'
         }, function () {
             alert("It's coming")
         });
