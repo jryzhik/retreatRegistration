@@ -562,7 +562,7 @@ main {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url('../img/newbackground.png');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url('../img/main.photo.jpg');
 }
 .content {
 	position: relative;
