@@ -1,15 +1,15 @@
 (function($) { "use strict";
-	
+
 	//Preloader
-	
+
 	$(window).on('load', function(e) { // makes sure the whole site is loaded
 		$(".loader__figure").fadeOut(); // will first fade out the loading animation
 		$(".loader").delay(500).fadeOut("slow"); // will fade out the white DIV that covers the website.
 	})
-	
-	
+
+
 	/*! Popover */
-	
+
 	$('a.ticket-link').webuiPopover({
 		url:'#ticket-wrap',
 		width: 300,
@@ -17,11 +17,11 @@
 		arrow: true
 	});
 
-	
+
 	$(document).ready(function() {
 
 		/*! Nicescroll */
-		
+
 		$("#boxscroll-1").niceScroll("#boxscroll-in-1",{
 			cursorcolor:"#000",
 			cursoropacitymax:0.5,
@@ -43,7 +43,7 @@
 			scrollspeed: 60,
 			mousescrollstep: 60,
 			autohidemode: false,
-			bouncescroll: false,			
+			bouncescroll: false,
 			railpadding: { top: 20, right: 5, left: 0, bottom: 20 }
 		});
 		$("#boxscroll-3").niceScroll("#boxscroll-in-3",{
@@ -55,7 +55,7 @@
 			scrollspeed: 60,
 			mousescrollstep: 60,
 			autohidemode: false,
-			bouncescroll: false,		
+			bouncescroll: false,
 			railpadding: { top: 20, right: 5, left: 0, bottom: 20 }
 		});
 		$("#boxscroll-4").niceScroll("#boxscroll-in-4",{
@@ -65,9 +65,9 @@
 			cursorborder: "0px solid #fff",
 			dblclickzoom: false,
 			scrollspeed: 60,
-			mousescrollstep: 60,	
+			mousescrollstep: 60,
 			autohidemode: false,
-			bouncescroll: false,		
+			bouncescroll: false,
 			railpadding: { top: 20, right: 5, left: 0, bottom: 20 }
 		});
 		$("#boxscroll-5").niceScroll("#boxscroll-in-5",{
@@ -79,24 +79,24 @@
 			scrollspeed: 60,
 			mousescrollstep: 60,
 			autohidemode: false,
-			bouncescroll: false,			
+			bouncescroll: false,
 			railpadding: { top: 20, right: 5, left: 0, bottom: 20 }
 		});
 
-		
+
 		//Countdown
-		
+
         $('.countdown').downCount({
-            date: '01/23/2025 22:00:00'
+            date: '01/29/2026 17:00:00'
         }, function () {
             alert("It's coming")
         });
 
-		
+
 		//Animated Icons
-		
+
 		var options = {
-		  duration: 150, 
+		  duration: 150,
 		  type: 'oneByOne',
 		  animTimingFunction: Vivus.EASE
 		};
@@ -105,6 +105,6 @@
 
 		function onComplete() {}
 
-	});	
-	
-})(jQuery); 
+	});
+
+})(jQuery);
