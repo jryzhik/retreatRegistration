@@ -88,9 +88,7 @@
 
         $('.countdown').downCount({
             date: '01/29/2026 17:00:00'
-        }, function () {
-            alert("It's coming")
-        });
+        }, function () {});
 
 
 		//Animated Icons
